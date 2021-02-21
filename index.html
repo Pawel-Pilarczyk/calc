@@ -1,0 +1,64 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="Calculator JS">
+
+        <!-- Styles  CSS -->
+
+        <link rel="stylesheet" type="text/css" href="styles.css"> 
+
+        <!-- Standariser  CSS -->
+        <link rel="stylesheet" type="text/css" href="standariser.css"> 
+
+        <!-- Bootstrap CSS -->
+         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+        <title>Calculator JS</title>
+
+    </head>
+    <body>
+        <div class="calc">
+            <div class="input-group input-group-lg">
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" disabled> 
+            </div>
+            <div class="bt-div">
+                <div class="numbers-div">
+                    <div>
+                        <button class="bt bt-bg btn btn-danger p-2" value="C">C</button>
+                        <button class="bt btn btn-info p-2" value="sqrt">&#8730</button>
+                        <button class="bt btn btn-info p-2" value="*">*</button>
+                    </div>
+                    <div>
+                        <button class="bt btn btn-primary p-2" value="7">7</button>
+                        <button class="bt btn btn-primary p-2" value="8">8</button>
+                        <button class="bt btn btn-primary p-2" value="9">9</button>
+                        <button class="bt btn btn-info p-2" value="/">/</button>
+                        
+                    </div>
+                    <div>
+                        <button class="bt btn btn-primary p-2" value="4">4</button>
+                        <button class="bt btn btn-primary p-2" value="5">5</button>   
+                        <button class="bt btn btn-primary p-2" value="6">6</button>
+                        <button class="bt btn btn-info p-2" value="-">-</button>
+                    </div>
+                    <div>
+                        <button class="bt btn btn-primary p-2" value="1">1</button>
+                        <button class="bt btn btn-primary p-2" value="2">2</button>
+                        <button class="bt btn btn-primary p-2" value="3">3</button>
+                        <button class="bt btn btn-info p-2" value="+">+</button>
+                    </div>
+                    <div>
+                        <button class="bt bt-bg btn btn-primary" value="0">0</button>
+                        <button class="bt btn btn-info" value=".">.</button>
+                        <button class="bt btn btn-info p-2" value="=">=</button>
+                    </div>
+                 </div>           
+            </div>
+        </div>
+        
+    </body>
+    <!-- Adding Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</html>
